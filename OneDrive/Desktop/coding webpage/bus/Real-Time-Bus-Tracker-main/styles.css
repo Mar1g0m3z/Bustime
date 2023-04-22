@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'chubby_chooregular';
+    src: url('chubbychoo-regular-webfont.woff2') format('woff2'),
+         url('chubbychoo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: plum;
+  
+}
+
+h1 {
+    font-family: 'chubby_chooregular';
+        color: rgb(255, 126, 152);
+        text-shadow:
+        -5px -5px 0 #000000,
+        5px -5px 0 #000,
+        -5px 5px 0 #000,
+        5px 5px 0 #000;  
+        text-align: center;
+    font-size:100px
+}
+
+
+h3 {
+    font-family: 'chubby_chooregular';
+    text-align: center;
+    color:white;
+    text-shadow: 
+    -2px -2px 0 #000000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;  
+        text-align: center;
+    
+font-size:40px
+}
+body 
+{background-image: url("pixel\ bakcground.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;}
+
+
+#map {
+    width: 1000px;
+    height: 500px;
+   left: 350px;
+}
